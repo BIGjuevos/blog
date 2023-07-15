@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Code Behaving Badly
+subtitle: Ryan Null
+description: 'The Blog of Ryan Null'
 keywords:
-author: John Doe
+author: Ryan Null
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://codebehavingbadly.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -93,7 +93,29 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: linear
+theme_config:
+  waline:
+    enabled: false
+  counter:
+    enabled: false
+  declaration: false
+  pagination:
+    prev_text: '< prev'
+    next_text: 'next >'
+  links:
+    - name: scz.social
+      link: https://scz.social/@ryan
+      icon: friends.png
+    - name: github
+      link: https://github.com/BIGjuevos
+      icon: github.png
+    - name: twitter
+      link: https://twitter.com/BIGjuevos
+      icon: twitter.png
+    - name: instagram
+      link: https://instagram.com/BIGjuevos
+      icon: instagram.png
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
